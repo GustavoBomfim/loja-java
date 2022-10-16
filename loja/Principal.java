@@ -1,3 +1,5 @@
+package loja;
+
 import java.util.Scanner;
 
 public class Principal {
