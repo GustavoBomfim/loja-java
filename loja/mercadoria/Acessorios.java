@@ -8,6 +8,7 @@ public class Acessorios extends Produto {
     String modeloAcessorio;
     String material;
     String cor;
+    private int quantidade;
 
     public Acessorios(String nome, String marca, double preco, String sexo,
             String tipoAcessorio, String modeloAcessorio, String material, String cor){
@@ -16,5 +17,13 @@ public class Acessorios extends Produto {
         this.modeloAcessorio = modeloAcessorio;
         this.material = material;
         this.cor = cor;
+    }
+
+    public int getQuantidade() {
+        return quantidade;
+    }
+
+    public void setQuantidade(int quantidade) {
+        this.quantidade = quantidade;
     }
 }
